@@ -1,0 +1,59 @@
+.props{
+    margin-top: 200px;
+}
+@media (max-width:37.5em){
+    .props{
+        margin-top: 150px;
+    }
+}
+.singleprop{
+    .singleprop__description{
+        .singleprop__combined{
+            .singleprop__left{
+                .left{
+                display: flex;
+                justify-content: space-center;
+                gap:20px;
+               
+                }
+                @media (min-width:37.598em){
+                    .left{
+                        gap:50px;
+                    }
+                }
+            }
+        }
+        @media (min-width:37.598em){
+            .singleprop__combined{
+                display: flex;
+                justify-content: space-around;
+            }
+        }
+    }
+}
+@media (max-width:37.5em){
+   .price{
+    width: 100%;
+    display: block;
+    text-align: center !important;
+    margin-inline: auto !important;
+   }
+}
+@media (max-width:37.5em){
+    .singleprop__left{
+        width: 100% !important;
+    }
+    .prop__des{
+        text-align: left;
+    }
+}
+.singleprop__right{
+    height:500px;
+    width:500px;
+}
+@media (max-width:37.5em){
+    .singleprop__right{
+        width: 100% !important;
+    }
+    
+}

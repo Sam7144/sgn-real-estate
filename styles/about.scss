@@ -1,0 +1,38 @@
+.about{
+    margin-top:130px;
+    div{
+        .left{
+            div{
+                @media (max-width:41em){
+                    .left__image{
+                      width: 100%;
+                    }  
+              }
+            }
+          .left__content{
+            h3{
+                line-height: 2.5;
+            }
+            .pc{
+                position: relative;
+                
+            }
+          }
+        }
+    }
+}
+@media (min-width:41.1em){
+    .div3{
+      text-align: center;
+    }  
+}
+@media (min-width:41.1em){
+    .div4{
+      text-align: center;
+    }  
+}
+@media (max-width:41em){
+    .div5{
+      width: 100%;
+    }  
+}

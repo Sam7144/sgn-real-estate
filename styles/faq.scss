@@ -1,0 +1,14 @@
+.faq{
+    margin-top: 150px;
+    @media (max-width:62em){
+        .te{
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width:62em){
+    .faq{
+        margin-top: 200px;
+    }
+}

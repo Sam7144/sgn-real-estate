@@ -1,0 +1,155 @@
+{
+    "apartments":[
+        {
+            "name":"Liszt Ferenc Square",
+            "size":"1.5 BD | 1 BA | 68m",
+            "price":"€268,600",
+            "image":"/images/apart1.jpg"
+        },
+        {
+            "name":"Oktober 6 Street",
+            "size":"1BD | 1BA | 35m²",
+            "price":"€157,000",
+            "image":"/images/apart2.jpg"
+        },
+        {
+            "name":"Dob Street",
+            "size":"1BD | 1BA | 37m²",
+            "price":"€114,000",
+            "image":"/images/apart3.jpg"
+
+        },
+        {
+            "name":"Kiraly Street",
+            "size":"2 BD | 1 BA | 78m²",
+            "price":"€224,000",
+            "image":"/images/apart4.jpg"
+
+        },
+        {
+            "name":"Nyar Street",
+            "size":"1BD | 1BA | 69m2",
+            "price":"€290,000",
+            "image":"/images/apart6.jpg"
+        },
+        {
+            "name":"Nador Street",
+            "size":"1BD | 1BA | 38m2",
+            "price":"€159,000",
+            "image":"/images/apart7.jpg"
+        }
+    ]
+    ,
+    "all":[
+        {
+            "name":"Liszt Ferenc Square",
+            "size":"68m",
+            "price":"€268,600",
+            "bedrooms":2,
+            "bathrooms":2,
+            "floor":1,
+            "status":"vacant",
+            "view":"street",
+            "condition":"very good",
+            "parking":"self parking",
+            "images":{
+                "image1":"/images/apart1.jpg",
+                "image2":"/house1/living.jpg",
+                "image3":"/house1/bed.jpg",
+                "image4":"/house1/kitchen.jpg"
+               }
+        },
+        {
+            "name":"Oktober 6 Street",
+            "size":"35m²",
+            "price":"€257,000",
+            "bedrooms":3,
+
+            "bathrooms":3,
+            "floor":2,
+            "status":"vacant",
+            "view":"street",
+            "condition":"very good",
+            "parking":"self parking",
+            "images":{
+                "image1":"/images/apart2.jpg",
+                "image2":"/house2/living.jpg",
+                "image3":"/house2/bed.jpg",
+                "image4":"/house2/kitchen.jpg"
+               }
+        },
+        {
+            "name":"Dob Street",
+            "size":"37m²",
+            "price":"€114,000",
+            "bedrooms":1,
+            "bathrooms":1,
+            "floor":3,
+            "status":"vacant",
+            "view":"street",
+            "condition":"very good",
+            "parking":"self parking",
+            "images":{
+                "image1":"/images/apart3.jpg",
+                "image2":"/house3/living.jpg",
+                "image3":"/house3/bed.jpg",
+                "image4":"/house3/kitchen.jpg"
+               }
+        },
+        {
+            "name":"Kiraly Street",
+            "size":"2 BD | 1 BA | 78m²",
+            "price":"€224,000",
+            "bedrooms":4,
+            "bathrooms":4,
+            "floor":3,
+            "status":"vacant",
+            "view":"street",
+            "condition":"very good",
+            "parking":"self parking",
+            "images":{
+                "image1":"/images/apart4.jpg",
+                "image2":"/house4/living.jpg",
+                "image3":"/house4/bed.jpg",
+                "image4":"/house4/kitchen.jpg"
+               }
+        },
+        {
+            "name":"Nyar Street",
+            "size":"1BD | 1BA | 69m2",
+            "price":"€290,000",
+            "bedrooms":3,
+            "bathrooms":3,
+            "floor":5,
+            "status":"vacant",
+            "view":"street",
+            "condition":"very good",
+            "parking":"self parking",
+            "images":{
+                "image1":"/images/apart6.jpg",
+                "image2":"/house5/living.jpg",
+                "image3":"/house5/bed.jpg",
+                "image4":"/house5/kitchen.jpg"
+               }
+        },
+        {
+            
+            "name":"Nador Street",
+            "size":"1BD | 1BA | 38m2",
+            "price":"€159,000",
+            "bedrooms":3,
+            "bathrooms":3,
+            "floor":5,
+            "status":"vacant",
+            "view":"street",
+            "condition":"very good",
+            "parking":"self parking",
+           "images":{
+            "image1":"/images/apart7.jpg",
+            "image2":"/house6/living.jpg",
+            "image3":"/house6/bed.jpg",
+            "image4":"/house6/bed.jpg"
+           }
+        }
+    ]
+}

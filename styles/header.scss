@@ -1,0 +1,113 @@
+$white:hsl(0, 0%, 100%);
+$blue-fade:hsl(240, 40%, 54%);
+@media (max-width:50em){
+    .hide-for-mobile{
+        display: none !important;
+    }
+}
+@media (min-width:50.1em){
+    .hide-for-desktop{
+        display: none !important;
+    }
+}
+.hd{
+position:fixed;
+top:0;
+z-index:100;
+width:100%;
+left:50%;
+transform: translateX(-50%);
+}
+.header{
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: $blue-fade;
+    border-bottom: 1px solid hsl(0, 0%, 100%) !important;
+    .header__logo{
+        width: 250px;
+    }
+    .header__links{
+        display: flex;
+        justify-content: space-between;
+        color:$white !important ;
+        div{
+            margin-inline-start: 30px;
+            a{
+                color: $white;
+            }
+        }
+    }
+}
+.herburger{
+    margin-inline-end: 10px;
+    span{
+        display:block;
+        border-bottom: 1px solid black;
+        height:8px;
+        width:30px;
+        transform-origin: 3px 4px;
+        &:not(:last-child){
+            span:not(:last-child){
+                margin-block-end: 5px;
+            }
+        }
+    }
+   }
+   .toggle {
+    z-index: 2;
+    overflow-y: hidden;
+    >span:first-child {
+        display: block;
+        width: 26px;
+        height: 1px;
+        // background-color: green;
+        // background-color: green;
+        transform: rotate(45deg);
+    }
+
+    >span:nth-child(2) {
+        opacity: 0;
+    }
+
+    >span:last-child {
+        display: block;
+        width: 26px;
+       // background-color: green;
+        transform: rotate(-45deg);
+    }
+}
+.display-none{
+    display:none !important;
+}
+
+.display-none1{
+    display:none !important;
+}
+ul{
+    list-style: none;
+}
+.mobile-side-menu{
+    position:absolute;
+    background-color: $white;
+    top:90px;
+    right:0;
+    width:45%;
+    ul{
+        width:100%;
+        li{
+            padding-block: 10px;
+            //border-bottom:1px solid black;
+            font-weight: 100;
+            text-align: center;
+            font-size: 0.875rem;
+            color: #9698a6;
+            &:hover{
+                //background-color: $grey;
+                color:hsl(233, 26%, 24%);
+            }
+        }
+    }
+    
+}
